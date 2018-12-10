@@ -1,3 +1,4 @@
 body {
-    background-color:var(--green);
+    background-color:var(--blue-green);
+    font-family: var(--mainfont);
 }
