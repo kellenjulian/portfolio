@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Allan|Audiowide|Hanalei+Fill" rel="stylesheet">
+    <link href="../01-portfolio/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
     <title>Portfolio</title>
 </head>
-<body>
+<body id="top" class="animated fadeIn delay-0.75s">
     
     <!--bootstrap link-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -19,36 +24,187 @@
     <script src="./js/main.js"></script>
 
         <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="text-warning navbar navbar-expand-lg bg-success navbar-light">
+        <a class="navbar-brand" href="#">Navigation</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" id="nav-content">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a href="#top" class="nav-link">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#aboutMe">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#contact ">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
       
+      <div class="sidebar">
+          <h1>Navigation</h1>
+          <div class="sidebarLinks">
+            
+            <button><p><a href="#top">Home</a></p></button>
+            <button><p><a href="#aboutMe">About Me</a></p></button>
+            <button><p><a href="#contact">Contact Me</a></p></button>
+            <button><p><a href="#projects">Projects</a></p></button>
+          </div>
+          
+        </div>
       
       <!--Jumbotron-->
       <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <div class="container parallax">
+          <h1 class="display-4">Kellen Julian</h1>
+          <hr>
+          <p class="lead">A Freelance Developer</p>
+        </div> 
+      </div>
+
+      <div id="aboutMe" class="aboutMe">
+        <h1>About Me</h1>
+        <div class="textdiv"> 
+          <div class="col-md-3 aboutOne">
+            <p>
+                I first started coding when I was about 14 years old upon my discovery that 
+                I would need to use some basic commands in Java to run my minecraft server so I could play with my friends. From there
+                I began learning how to write basic code via youtube videos, and later moved on to the JavaScript courses that Codecademy
+                had to offer at the time.
+            </p>
+
+          </div>
+          <div class="col-md-3 aboutTwo">
+            <p>
+                Now, after graduating high school, I have begun the 3-month JavaScript course through Eleven 
+                Fifty Academy, and my coding skills are being taken to places they'd never be able to go before!
+            </p>
+
+          </div>
+          <div class="col-md-3 aboutThree">
+          <p>
+              Take a look below to 
+              see some of the projects I have been working on since I started my time at Eleven Fifty, or jump down to the contact 
+              section and shoot me an e-mail!
+          </p>
+          </div>
+
+          </div>
+      </div> 
+
+      <div class="skills">
+          <img src="assets/img/JulianKellen.jpeg" class="animated swing">
+          
+          <h1>Skills</h1>
+          <i class="fab fa-html5 fa-4x" data-toggle="tooltip" data-placement="top" title="HTML-5"></i>
+          <i class="fab fa-css3-alt fa-4x" data-toggle="tooltip" data-placement="top" title="CSS-3"></i>  
+          <i class="fab fa-js-square fa-4x" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>  
+                      
+          <button><p><a href="https://docs.google.com/document/d/1jTawNVApkPNrc92Ory_2Uc8rrjPz_R8bDiGcd2puGkA/edit?usp=sharing" target="blank">Download My Resume</a></p></button>
+        </div>
+
+      
+      <div class="projectTitle">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects" id="projects">
+        
+        <div class="projectContainer">
+          <a href="https://kellenjulian.github.io/tutorial-website-project/" target="blank"><img src="./assets/img/Screenshot_3.png" class="tutorialWebsite" data-toggle="tooltip" data-placement="top" title="Tutorial Website"></a>
+          <a href="https://codepen.io/kellenjulian/pen/LXvYWq" target="blank"><img src="./assets/img/Screenshot_4.png" class="cssCreature" data-toggle="tooltip" data-placement="top" title="CSS Creature"></a>
+          <a href="https://kj-studio-ghibli-api.firebaseapp.com/" target="blank"><img src="./assets/img/Screenshot_5.png" class="apiSearch" data-toggle="tooltip" data-placement="top" title="Studio Ghibli API"></a>
+         
         </div>
       </div>
+
+      <!-- <div class="skills">
+        <img src="assets/img/JulianKellen.jpeg">
+        <h1>Skills</h1>
+      </div>
+     -->
+      <!--Footie-->
+      <section id="about"></section>
+   <section id="portfolio"> </section>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   
+   <footer id="footie">
+      <section id="contact">
+          <div class="container">
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+              <form action="https://formspree.io/kellenjulianweb@gmail.com" method="POST">
+              <div class="control-group">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                      id="name"
+                      required
+                      data-validation-required-message="Please enter your name"
+                      name="name"
+                      >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      id="email"
+                      required
+                      data-validation-required-message="Please enter your email"
+                      name="_replyto"
+                    >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      rows="7"
+                      placeholder="Your Message"
+                      id="message"
+                      required
+                      data-validation-required-message="Please leave a message"
+                      name="message"
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+     </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+         </div>
+          </div>
+        </section>
+    <div id="iconRow">
+      <a href="https://github.com/kellenjulian/" target="blank"><i class="fab fa-github-square fa-3x iconWrapper" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
+      <a href="https://www.linkedin.com/in/kellen-julian-92a303177/" target="blank"><i class="fab fa-linkedin fa-3x iconWrapper" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
+   </footer>
+  
+  
 </body>
 </html>

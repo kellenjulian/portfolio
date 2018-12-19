@@ -1,3 +1,54 @@
 #nav-content {
     margin-left: 75%;
+    font-size: 25px;
+    color: coral;
+    background-color: linear-gradient(aqua, teal);
+    font-family: 'Audiowide', cursive;
+    padding: 10px;
+    margin: 10px;
+} 
+
+
+
+.sidebar {
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    margin: 20px;
+    padding: 15px;
+    height: 750px;
+    width: 300px;
+    color: orange;
+    left: 77%;
+    top: 500px;
+    position: absolute;
+    background-image: url(../assets/img/1.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    text-align:center;
+}
+
+.sidebarLinks {
+    color: coral;
+    font-size: 40px;
+    color: seagreen;
+    font-family: 'Audiowide', cursive;
+    background-image: url(../assets/img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px dotted seagreen;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+.sidebarLinks button {
+    background-color: seagreen;
+    color: coral;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 5px groove orange;
 }

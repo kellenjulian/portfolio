@@ -1,0 +1,39 @@
+#about section {
+    position:fixed;
+    margin: 20px auto auto;
+    padding: 20px;
+}
+
+#message {
+     width: 500px;
+     height: 100px;
+ }
+
+ #contact {
+     position:relative;
+     text-align: center;
+     margin: auto;
+     float: inherit;
+ }
+
+ #container {
+     margin: auto;
+ }
+
+ .text-center {
+    font-family: 'Audiowide', cursive;
+ }
+
+ .fa-linkedin {
+     position: relative;
+     bottom: 15px;
+     margin: 10px;
+ }
+
+ .fa-github-square {
+     position: relative;
+     bottom: 15px;
+     margin: 10px;
+     padding: 10px;
+ }
+ 

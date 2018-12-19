@@ -1,7 +1,55 @@
 .jumbotron {
-    background: url(https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=76ae2034864198c0b4daf6117ba25e72&auto=format&fit=crop&w=500&q=60) 
-    no-repeat center;
-    background-size: cover;
-    color: white;
+    color: red;
     text-align: center;
+    width: 100%;    
+    height: 350px;
+    text-shadow: black 0.3em 0.3em 0.3em 0.3em;
+    /* background:transparent; */
+    /* border: 10px solid salmon; */
+    border-radius: 50px;
+    background-image: url("../assets/img/IMG_3460.png");
+    height: 350px;
+    width: 100%;
+    padding: 5%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+/* .bg {
+    background: url(../assets/img/Screenshot_1.png) no-repeat center center;
+    position: fixed;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+
+.display-4 {
+    font-family: 'Audiowide', cursive;
+
+    font-size: 100px;
+    color: orange;
+    position: relative;
+    right: 200px;
+    text-shadow: 2.5px 2.5px palevioletred;
+}
+
+hr { 
+    border-color: salmon;
+    border-style: groove;
+    border-width: 2px;
+}
+.lead {
+    color:tomato;
+    font-size: 40px;
+    font-family: 'Audiowide', cursive;
+    text-decoration: overline salmon;
+    text-shadow: 2px 2px  orange;
+
 }

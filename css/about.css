@@ -1,0 +1,33 @@
+.aboutMe {
+    background-image: url(../assets/img/1.jpg);
+    height: 250px;
+    width: 75%;
+    border-radius: 25px;      
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+.aboutMe h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Audiowide', cursive;
+}
+
+.aboutOne {
+    display: inline-block;
+    bottom: 50px;
+    left: 25px;
+}
+
+.aboutTwo {
+   display: inline-block;
+   bottom: 60px;
+   left: 125px;
+}
+
+.aboutThree {
+    display: inline-block;
+    bottom: 75px;
+    left: 200px;
+    font-size: 20px;
+}

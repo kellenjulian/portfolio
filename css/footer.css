@@ -1,0 +1,16 @@
+#footie {
+    padding: 5px;
+    margin: 25px;
+    background-image: url(../assets/img/green\ terminal.png);
+    border-radius: 20px;
+    border: 5px dashed seagreen;
+    height: 400px;
+}
+
+#iconRow {
+    position:relative;
+    margin: 5px;
+    padding: 5px;
+    bottom:65px;
+    left: 500px;
+}
